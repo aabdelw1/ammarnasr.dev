@@ -66,11 +66,11 @@ const ThemedName = styled(Link)`
 `
 
 const NavbarLinks = [
-	{ name: 'Gatsby', link: '/' },
-	{ name: 'Home', link: '/home' },
-	{ name: 'About', link: '/about' },
-	{ name: 'Portfolio', link: '/portfolio'},
-	{ name: 'Contact', link: '/contact'}
+	// { name: 'Gatsby', link: '/' },
+	// { name: 'Home', link: '/home' },
+	// { name: 'About', link: '/about' },
+	// { name: 'Portfolio', link: '/portfolio'},
+	// { name: 'Contact', link: '/contact'}
 ]
 
 const _ = ({
@@ -78,8 +78,8 @@ const _ = ({
 }) => {
 
 	const [isOpen, setOpen] = useState(false)
-	const { theme: themeCtx } = useContext(ThemeProvider.Context)
-	const setTheme = themeCtx[1]
+	// const { theme: themeCtx } = useContext(ThemeProvider.Context)
+	// const setTheme = themeCtx[1]
 	
 	return (
 		<Container {...props} fixedToTop={fixed}>

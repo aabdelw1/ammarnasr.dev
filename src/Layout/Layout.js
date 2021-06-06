@@ -38,7 +38,7 @@ const _ = (props) => {
 			<div className="flex flex-col w-full h-screen content-between">
 				{/* <MobileNav/> */}
 				{
-					isMobile ? mobileNav : navbar
+					// isMobile ? mobileNav : navbar
 				}
 				{ (hero && !error)
           && 

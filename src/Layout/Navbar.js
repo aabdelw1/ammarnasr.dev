@@ -64,11 +64,11 @@ const ThemedName = styled(Link)`
 
 
 const NavbarLinks = [
-	{ name: 'Gatsby', link: '/' },
-	{ name: 'Home', link: '/home' },
-	{ name: 'About', link: '/about' },
-	{ name: 'Portfolio', link: '/portfolio'},
-	{ name: 'Contact', link: '/contact'}
+	// { name: 'Gatsby', link: '/' },
+	// { name: 'Home', link: '/home' },
+	// { name: 'About', link: '/about' },
+	// { name: 'Portfolio', link: '/portfolio'},
+	// { name: 'Contact', link: '/contact'}
 ]
 
 const _ = ({
