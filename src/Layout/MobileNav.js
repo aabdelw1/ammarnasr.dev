@@ -7,9 +7,6 @@ import { Pane, MenuIcon } from 'evergreen-ui'
 import { ThemeToggle, Typography } from '../components/primitives'
 import { ThemeProvider } from '../Layout'
 
-import { MenuToggle } from './MenuToggle'
-
-
 const Container = styled(Navbar)`
 	&& {
 		/* mpadding:14rem; */

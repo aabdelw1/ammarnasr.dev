@@ -18,7 +18,7 @@ const MiddleConsole = styled.div`
   margin-left: auto;
   margin-right: auto;
   width:67rem;
-	display:flex;å
+	display:flex;
 	justify-content: center;
 	align-items: flex-start; 
 	flex-direction: column;
@@ -102,7 +102,7 @@ export const Home = () => {
 					<Plus />
 					<GraphQLIcon height={36} />
 					<Plus />
-					{theme === 'dark' ? <ApolloIcon height={36} /> : <ApolloLightIcon height={36}/>}
+					{true ? <ApolloIcon height={36} /> : <ApolloLightIcon height={36}/>}
 				</Icons>
 			</MiddleConsole>
 		</HomePageWrapper>
